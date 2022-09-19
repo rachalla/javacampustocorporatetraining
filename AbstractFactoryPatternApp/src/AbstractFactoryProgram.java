@@ -8,6 +8,7 @@ public class AbstractFactoryProgram {
 		ScrollBar scrollBar = factory.createScrollBar();
 		button.draw();
 		scrollBar.scroll();
+		scrollBar.scroll();
 		
 		factory = new MotifFactory();
 		button = factory.createButton();
